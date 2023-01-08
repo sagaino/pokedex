@@ -1,4 +1,4 @@
-https://pokedex-three-sand.vercel.app/
+https://pokedex-sagaino.vercel.app/
 
 Using GraphQl, Tailwind 3, Next.js 13, and infinite scroll
 
