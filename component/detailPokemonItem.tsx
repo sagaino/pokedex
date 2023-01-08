@@ -6,8 +6,8 @@ const DetailPokemonItem = (props : PokemonDetail) => {
   const [img, setImg] = useState(pokemon_v2_pokemonsprites?.map((e) => e.sprites))
 
   return (
-    <div className="flex gap-10">
-      <div className="bg-slate-900 h-[300px] relative rounded-lg max-w-xs flex flex-col items-center p-5">
+    <div className="flex flex-col items-center gap-10 md:flex-col md:items-center lg:flex-row lg:items-start">
+      <div className="bg-slate-900 h-[330px] relative rounded-lg max-w-xs flex flex-col items-center p-5">
         <div className="absolute left-[20px]">{`#${id}`}</div>
         <img src={img?.toString()} width={250} height={250} alt="img-pokemon" />
         <div className="uppercase font-semibold text-[30px] tracking-wider text-amber-400 text-center">{name}</div>

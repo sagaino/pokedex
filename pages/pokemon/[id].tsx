@@ -15,12 +15,12 @@ const DetailPokemon = ({data} : any) => {
     <div>
       <div className="bg-slate-900 py-5 flex items-center justify-between px-5">
         <Link href="/" className="w-1/3">
-          <div className="text-[30px]">Back</div>
+          <div className="text-[30px] cursor-pointer">Back</div>
         </Link>
         <div className="text-3xl text-center text-amber-400">Detail Pokemon</div>
         <div className="w-1/3"></div>
       </div>
-      <div className="p-20">
+      <div className="p-4 md:p-20 lg:p-20">
         {
           detailPokemon.map((item : PokemonDetail, idx: any) => (
             <DetailPokemonItem
