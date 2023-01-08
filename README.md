@@ -1,4 +1,4 @@
-Using GraphQl, Tailwind 3, Next.js 13
+Using GraphQl, Tailwind 3, Next.js 13, and infinite scroll
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
